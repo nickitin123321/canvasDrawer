@@ -13,7 +13,7 @@ for (let j = 0; j < 4; j++) {
   ar.push(i * j);
 }
 
-const rect = new Rect(50, 20, ar[0], 100);
+const rect = new Rect(50, 201, ar[0], 100);
 const circle = new Circle(10, ar[1], 100);
 const elipse = new Elipse(10, 100, ar[2], 100);
 const square = new Square(30, ar[3], 100);
