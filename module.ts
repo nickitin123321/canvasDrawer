@@ -1,5 +1,5 @@
 import { Drawer } from '@monorepo123321/drawer';
-import { Rect, Elipse, Circle, Square } from '@monorepo123321/shapes';
+import { Rect, Elipse, Circle, Square } from '@monorepo123321/shapes'
 import { calculateArea, calculatePerimeter } from '@monorepo123321/math';
 
 const canvas = <HTMLCanvasElement>document.getElementById('myCanvas');
@@ -42,3 +42,4 @@ console.log('Circle1 perimeter:', calculatePerimeter(circle));
 console.log('Elipse perimeter:', calculatePerimeter(elipse));
 console.log('Square perimeter:', calculatePerimeter(square));
 console.log('Circle2 perimeter:', calculatePerimeter(circle2));
+console.log(square.name);

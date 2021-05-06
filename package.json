@@ -9,10 +9,9 @@
   "author": "Hiro Protagonist",
   "license": "ISC",
   "dependencies": {
-    "@babel/core": "^7.14.0",
-    "@monorepo123321/drawer": "^2.3.5",
-    "@monorepo123321/math": "^2.3.5",
-    "@monorepo123321/shapes": "^2.3.4",
+    "@monorepo123321/drawer": "^2.3.8",
+    "@monorepo123321/math": "^2.3.7",
+    "@monorepo123321/shapes": "^2.3.7",
     "express": "^4.17.1",
     "nodemon": "^2.0.7",
     "ts-loader": "^9.1.1"
