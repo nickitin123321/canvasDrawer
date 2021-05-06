@@ -1,6 +1,6 @@
-import { Drawer } from '@monorepo/drawer';
-import { Rect, Elipse, Circle, Square } from '@monorepo/shapes';
-import { calculateArea, calculatePerimeter } from '@monorepo/math';
+import { Drawer } from '@monorepo123321/drawer';
+import { Rect, Elipse, Circle, Square } from '@monorepo123321/shapes';
+import { calculateArea, calculatePerimeter } from '@monorepo123321/math';
 
 const canvas = <HTMLCanvasElement>document.getElementById('myCanvas');
 
@@ -13,10 +13,10 @@ for (let j = 0; j < 4; j++) {
   ar.push(i * j);
 }
 
-const rect = new Rect(50, 201, ar[0], 100);
+const rect = new Rect(50, 20, ar[0], 100);
 const circle = new Circle(10, ar[1], 100);
 const elipse = new Elipse(10, 100, ar[2], 100);
-const square = new Square(30, ar[3], 100);
+const square = new Square(10, ar[3], 100);
 
 const circle2 = new Circle(30, ar[2], 300);
 

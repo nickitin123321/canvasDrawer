@@ -1,18 +1,18 @@
 {
   "name": "canvasdrawer",
   "version": "1.0.0",
-  "workspaces": [
-    "./node_modules/@nickitin123321/monorepo/packages/*"
-  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index",
     "build": "webpack --config webpack.config.js"
   },
-  "author": "",
+  "author": "Hiro Protagonist",
   "license": "ISC",
   "dependencies": {
-    "@nickitin123321/monorepo": "^2.5.4",
+    "@babel/core": "^7.14.0",
+    "@monorepo123321/drawer": "^2.3.5",
+    "@monorepo123321/math": "^2.3.5",
+    "@monorepo123321/shapes": "^2.3.4",
     "express": "^4.17.1",
     "nodemon": "^2.0.7",
     "ts-loader": "^9.1.1"
@@ -20,6 +20,7 @@
   "devDependencies": {
     "@types/node": "^15.0.2",
     "@types/webpack": "^5.28.0",
+    "cz-conventional-changelog": "^3.3.0",
     "cz-customizable": "^6.3.0",
     "lerna": "^4.0.0",
     "ts-node": "^9.1.1",
@@ -28,5 +29,19 @@
     "webpack-cli": "^4.6.0"
   },
   "private": "true",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickitin123321/canvasDrawer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nickitin123321/canvasDrawer/issues"
+  },
+  "homepage": "https://github.com/nickitin123321/canvasDrawer#readme",
   "description": ""
 }
