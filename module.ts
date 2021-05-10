@@ -1,5 +1,5 @@
 import { Drawer } from '@monorepo123321/drawer';
-import { Rect, Elipse, Circle, Square } from '@monorepo123321/shapes'
+import { Rect, Elipse, Circle, Square } from '@monorepo123321/shapes';
 import { calculateArea, calculatePerimeter } from '@monorepo123321/math';
 
 const canvas = <HTMLCanvasElement>document.getElementById('myCanvas');
@@ -33,13 +33,24 @@ drawer4.drawSquare();
 drawer5.drawCircle();
 
 console.log('Rect area:', calculateArea(rect));
-console.log('Circle1 area:', calculateArea(circle));
-console.log('Elipse area:', calculateArea(elipse));
-console.log('Square area:', calculateArea(square));
-console.log('Circle2 area:', calculateArea(circle2));
-console.log('Rect perimeter:', calculatePerimeter(rect));
-console.log('Circle1 perimeter:', calculatePerimeter(circle));
-console.log('Elipse perimeter:', calculatePerimeter(elipse));
-console.log('Square perimeter:', calculatePerimeter(square));
-console.log('Circle2 perimeter:', calculatePerimeter(circle2));
+//calculateArea(rect);
+//console.log('Circle area:', calculateArea(circle2));
+calculateArea(circle);
+//console.log('Elipse area:', calculateArea(elipse));
+calculateArea(elipse);
+//console.log('Square area:', calculateArea(square));
+calculateArea(square);
+//console.log('Circle area:', calculateArea(circle2));
+calculateArea(circle2);
+//console.log('Rect prerimeter:', calculatePerimeter(rect));
+calculatePerimeter(rect);
+//console.log('Circle prerimeter:', calculatePerimeter(circle));
+calculatePerimeter(circle);
+//console.log('Elipse perimeter:', calculatePerimeter(elipse));
+calculatePerimeter(elipse);
+//console.log('Square prerimeter:', calculatePerimeter(square));
+calculatePerimeter(square);
+//console.log('Circle prerimeter:', calculatePerimeter(square));
+calculatePerimeter(circle2);
 console.log(square.name);
+
