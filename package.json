@@ -5,16 +5,20 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon index",
     "build": "webpack --config webpack.config.js",
-    "update": "npm update @monorepo123321/drawer @monorepo123321/shapes @monorepo123321/math",
+    "update": "npm update @nickitin123321/drawer @nickitin123321/shapes @nickitin123321/math",
     "start": "npm run update && npm run build && npm run server"
   },
   "author": "Hiro Protagonist",
   "license": "ISC",
   "dependencies": {
     "@angular/cli": "^11.2.12",
+    "@babel/parser": "^7.14.3",
     "@monorepo123321/drawer": "^2.3.19",
     "@monorepo123321/math": "^2.3.21",
     "@monorepo123321/shapes": "^2.3.19",
+    "@nickitin123321/drawer": "^2.3.83",
+    "@nickitin123321/math": "^2.3.84",
+    "@nickitin123321/shapes": "^2.3.83",
     "express": "^4.17.1",
     "nodemon": "^2.0.7",
     "ts-loader": "^9.1.1"
